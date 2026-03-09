@@ -4,7 +4,7 @@ TEFA Minibar Javanica adalah aplikasi berbasis website yang dirancang untuk mend
 
 ---
 
-## 🎯 Tujuan Sistem
+## Tujuan Sistem
 
 Aplikasi ini dikembangkan untuk:
 
@@ -15,7 +15,7 @@ Aplikasi ini dikembangkan untuk:
 
 ---
 
-## 👤 Role Pengguna
+##  Role Pengguna
 
 ### 1. Admin
 Memiliki akses penuh terhadap pengelolaan data dan analitik sistem.
@@ -49,7 +49,7 @@ Fitur utama:
 
 ---
 
-## 💰 Sistem Keuangan
+##  Sistem Keuangan
 
 Sistem secara otomatis:
 - Menghitung HPP berdasarkan komposisi resep dan harga bahan baku
@@ -60,7 +60,7 @@ Sistem secara otomatis:
 
 ---
 
-## 📦 Manajemen Stok
+## Manajemen Stok
 
 - Pengurangan stok otomatis saat transaksi terjadi
 - Monitoring stok minimum
@@ -68,7 +68,7 @@ Sistem secara otomatis:
 
 ---
 
-## 🧾 Invoice & Struk Digital
+## Invoice & Struk Digital
 
 - Invoice dibuat otomatis dengan nomor unik
 - Tersedia akses struk digital melalui token unik
@@ -77,7 +77,7 @@ Sistem secara otomatis:
 
 ---
 
-## 📊 Dashboard & Analitik
+##  Dashboard & Analitik
 
 - Grafik penjualan per periode
 - Identifikasi produk terlaris
@@ -86,7 +86,7 @@ Sistem secara otomatis:
 
 ---
 
-## 🔒 Audit & Keamanan
+##  Audit & Keamanan
 
 - Role-based access control
 - Pencatatan histori perubahan harga dan resep
@@ -95,12 +95,12 @@ Sistem secara otomatis:
 
 ---
 
-## 🛠️ Teknologi
+##  Teknologi
 
 Aplikasi ini dikembangkan sebagai sistem web responsive yang dapat diakses melalui perangkat desktop maupun mobile, dengan fokus pada stabilitas, integritas data, dan kemudahan penggunaan.
 
 ---
 
-## 📌 Catatan
+##  Catatan
 
 Sistem ini dirancang sebagai Minimum Viable Product (MVP) yang dapat dikembangkan lebih lanjut sesuai kebutuhan operasional dan ekspansi lini bisnis TEFA.
