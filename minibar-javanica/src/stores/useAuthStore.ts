@@ -1,36 +1,37 @@
-// todo : buat authstore dengan kompabilitas yang bagus dengan kelengkapan dari user data dan token
+import { signInService, signUpService } from "@/services/authService"
 import { create } from "zustand"
-
-export interface User {
-  id: number
-  name: string
-  email: string
-  role: "CASHIER" | "USER"
-}
+import type { User } from "@/types/authStore.type"
 
 interface AuthState {
   user: User | null
   token: string | null
-
-  setAuth: (user: User, token: string) => void
-  logout: () => void
+  signIn: (email: string, password: string) => Promise<void>
+  signUp: (email: string, password: string) => Promise<void>
+  signOut: () => void
 }
 
+/**
+ * Store
+ * bagian ini untuk menyimpan state
+ */
 const useAuthStore = create<AuthState>((set) => ({
   user: null,
   token: null,
 
-  setAuth: (user, token) =>
-    set({
-      user,
-      token,
-    }),
+  signIn: async (email, password) => {
+    await signInService(email, password)
+  },
 
-  logout: () =>
+  signUp: async (email, password) => {
+    await signUpService(email, password)
+  },
+
+  signOut: () => {
     set({
       user: null,
       token: null,
-    }),
+    })
+  },
 }))
 
 export default useAuthStore
